@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin: 10px;
+}
+.box1 {
+    /*
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;*/
+
+    border-radius: 15px 50px 5px 30px; /*Four unequal value*/
+}
+.box2 {
+   /*
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+   */
+    border-radius: 15px 50px 30px; /*Three value*/
+}
+.box3 {
+    border-radius: 15px 50px; /* Two equal value*/
+}
+.box4 {
+    border-radius: 15px; /* Four equal value */
+}
